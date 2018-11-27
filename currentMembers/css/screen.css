@@ -1,0 +1,40 @@
+/*Put grid styles here*/
+
+#wrapper {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	column-gap: 50px;
+}
+
+h2.position {
+	margin-top: 50px;
+	font-size: 1.2em;
+}
+
+p.name {
+	margin-bottom: -10px;
+	color: red;
+	font-size: 1.05em;
+}
+
+p.address {
+	margin-bottom: -10px;
+	font-size: 1.05em;
+}
+
+p.link {
+	margin-bottom: -10px;
+	font-size: 1.05em;
+}
+
+#page {
+	height: auto;
+	width: 1050px;
+	margin-left: 400px;
+	margin-right: auto;
+}
+
+div#memdetails {
+	margin-left: 30px;
+}
+
