@@ -23,7 +23,7 @@ h1 {
   line-height: 1.5em;
   background-color: blue; /*lightblue*/
   opacity: 0.7;
-  padding-right: 3.8em;
+  padding-right: 0.5em;
   padding-top: 9em;
   padding-bottom: 0.5em;
   z-index: 1;
@@ -91,6 +91,6 @@ section {
 
 .slideshow {
   max-width: 100%;
-  padding-left: 58.5%;
+  padding-left: 54.2%;
   background-color: white; /*TODO: or black*/
 }
