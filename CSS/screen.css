@@ -46,6 +46,19 @@ nav ul{
   list-style-type: none;
 }
 
+nav a {
+  color: black;
+}
+
+nav ul > li > a {
+  text-decoration: none;
+  width: 100%;
+}
+
+nav a:hover {
+  color:white;
+}
+
 
 #subnav ul {
   display: run-in;
@@ -93,4 +106,20 @@ section {
   max-width: 100%;
   padding-left: 54.2%;
   background-color: white; /*TODO: or black*/
+}
+
+#contact {
+  position: absolute;
+  top: 14em;
+  margin-left: 5em;
+}
+
+#contact a {
+  text-decoration: none;
+  color: blue;
+}
+
+#contact li {
+  display: inline;
+  padding-right: 0.5em;
 }
