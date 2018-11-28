@@ -1,0 +1,86 @@
+
+#page {
+	height: auto;
+	width: 1050px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 1.4em;
+}
+
+mark {
+	background-color: white;
+}
+
+mark.mrk1 {
+	color: red;
+	font-size: 1.2em;
+}
+
+mark.mrk2 {
+	color: blue;
+}
+
+div {	
+	margin: auto;
+	width: 50%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+div.question {
+	color: red;
+}
+
+div.input {
+	position: absolute;
+	margin-top: -30px;
+	margin-left: 350px;
+	color: blue;
+}
+
+div#donation {
+	margin-top: 75px;
+}
+
+div.donationQ {
+	margin-left: 50px;
+	color: blue;
+}
+
+div.donationI {
+	position: absolute;
+	margin-top: -30px;
+	margin-left: 300px;
+}
+
+div#sponsor {
+	margin-top: 75px;
+}
+
+div#thanks {
+	margin-top: 75px;
+	color: blue;
+	text-align: center;
+	font-size: 1.3em;
+}
+
+div#check {
+	margin-top: 50px;
+	border: 5px solid red;
+	text-align: center;
+	font-size: 1.1em;
+}
+
+div.button {
+	margin-top: 50px;	
+	margin-left: 525px;
+}
+
+input#no {
+	margin-left: 50px;
+}
+
+button {
+	color: white;
+	background-color: blue;
+}
