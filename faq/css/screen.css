@@ -116,42 +116,84 @@ nav ul > li {
   padding-right: 0.5em;
 }
 
-#wrapper {
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	column-gap: 50px;
-}
-
-h2.position {
-	margin-top: 50px;
-	margin-bottom: 20px;
-	font-size: 1.3em;
-}
-
-p.name {
-	margin-bottom: 10px;
-	color: red;
-	font-size: 1.15em;
-}
-
-p.address {
-	margin-bottom: 10px;
-	font-size: 1.15em;
-}
-
-p.link {
-	margin-bottom: 10px;
-	font-size: 1.15em;
-}
-
 #page {
 	height: auto;
 	width: 1050px;
 	margin-left: auto;
+	margin-top: 70px;
 	margin-right: auto;
+	font-size: 1.4em;
 }
 
-div#memdetails {
+section#faqintro {
+	width: 700px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+section.faqbody {
+	width: 700px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+h2.faqh2 {
+	font-size: 2.2em;
+	color: blue;
+	margin-bottom: 20px;
+}
+
+h3.faqh3 {
+	font-size: 1.05em;
+	color: red;
+	margin-bottom: 15px;
+}
+
+h3.buttonprompt {
+	text-align: center;
+	font-size: 1.15em;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+p.introbody {
+	font-size: 1.05em;
 	margin-left: 30px;
 }
 
+p.faqbody {
+	font-size: 0.95em;
+	margin-bottom: 15px;
+	margin-left: 30px;
+}
+
+ol#memsteps {
+	margin-left: 50px;
+}
+
+ol#memsteps > li {
+	margin-bottom: 10px;
+}
+
+ul#memben {
+	margin-left: 50px;
+}
+
+ul#memben > li {
+	margin-bottom: 10px;
+}
+
+div#registerbutton {
+	position: absolute;
+	margin-left: 800px;
+	margin-top: -700px;
+	border: 3px solid blue;
+	width: 300px;
+	height: 150px;
+}
+
+button#regbut {
+	color: white;
+	background-color: red;
+	margin-left: 105px;
+}
