@@ -16,19 +16,21 @@ h1 {
   color: #a5d6ef;
   display: flex;
   position: absolute;
-  font-family: Times; /*decorative text*/
-  font-size: 2.5em;
-  top: 0.8em;
+  font-family: "Norican";
+  font-size: 3em;
+  top: 0.01em;
   padding-left: 0.6em;
   line-height: 1.5em;
   padding-right: 0.5em;
-  padding-top: 9em;
+  padding-top: 8em;
   padding-bottom: 0.5em;
   z-index: 1;
 }
 
 main {
   padding: 5em;
+  font-size: 1.15em;
+  display: grid;
 }
 
 nav {
@@ -81,35 +83,54 @@ section {
   display: flex;
   flex-direction: column;
   position: absolute;
-  top: 35em; /*top: 5em; */
+  top: 35em;
   z-index: 2;
-  /*margin-left: 13em;*/
+
 
 }
 
 .flag {
-  /*background-color: white;
-  padding-right 9.5em;*/
   max-width: 100%;
   display: flex;
   flex-direction: column;
   position: absolute;
-  top: 2em; /*16em*/
-  /*margin-left: 13em;*/
+  top: 2em;
   z-index: 2;
 
 }
 
 .slideshow {
   max-width: 100%;
-  padding-left: 54.2%;
+  padding-left: 59%;
   background-color: #003cff;
 }
 
-#contact {
+.map {
+  max-width: 100%;
+  display: block;
+}
+
+.input a {
+  text-decoration: none;
+  display: block;
+  color: #003cff;
+  text-decoration: none;
+  padding-bottom: 3em;
+  margin-left: 55em;
+}
+
+form {
   position: absolute;
-  top: 14em;
-  margin-left: 5em;
+  top: 53em;
+}
+
+#fb {
+  max-width: 22%;
+}
+
+#linkedIn {
+  max-width: 18%;
+  padding-left: 0.5em;
 }
 
 #contact a {
@@ -118,6 +139,161 @@ section {
 }
 
 #contact li {
-  display: inline;
   padding-right: 0.5em;
+}
+
+#contact-page {
+  display: grid;
+  grid-template: 'b a'
+                 'd e'
+                 'f f';
+  grid-gap: 3em;
+  padding: 1em;
+  padding-bottom: 0;
+}
+
+#contact-page h2 {
+  color: #ff0000;
+  padding-bottom: 1em;
+  font-size: 1.5em;
+}
+
+#contact-page h3 {
+  color: blue;
+}
+
+#contact-page ol {
+  list-style: decimal;
+  padding-left: 2em;
+  font-size: 0.7em;
+}
+
+#contact {
+  grid-area: a;
+  margin-left: 6em;
+  padding-left: 2em;
+  border-left: black solid 0.01em;
+}
+
+#contact p {
+  font-size: 0.7em;
+  padding-left: 0.5em;
+}
+
+#map {
+  grid-area: b;
+  margin-left: 2em;
+}
+
+#map li {
+  padding-top: 0.5em;
+  padding-bottom: 0.3em;
+  font-size: 0.7em;
+  padding-left: 10em;
+  background-color: #a5d6ef;
+  opacity: 0.8;
+}
+
+#downtown-directions {
+  grid-area: d;
+  padding-right: 2em;
+  border-right: black solid 0.01em;
+}
+
+#downtown-directions h3{
+  padding-bottom: 2em;
+}
+
+#downtown-directions li,
+#north-directions li,
+#south-directions li {
+  padding-bottom: 0.5em;
+  font-size: 1em;
+}
+
+#north-directions {
+  grid-area: e;
+  padding-top: 3em;
+  padding-right: 3em;
+}
+
+#north-directions h3{
+  padding-bottom: 3em;
+}
+
+#south-directions {
+  grid-area: f;
+  margin-top: 2em;
+  padding-right: 0.5em;
+}
+
+#south-directions h3 {
+  padding-bottom: 2em;
+}
+
+#board-page {
+  display: grid;
+  grid-template: 'a b';
+  grid-gap: 3em;
+  padding: 3em;
+  padding-bottom: 0;
+}
+
+#board-page h2 {
+  color: red;
+  font-size: 1.5em;
+}
+
+#officers {
+  grid-area: a;
+  border-right: black solid 0.01em;
+  padding-right: 3em;
+}
+
+#officers h3 {
+  color: blue;
+  padding-top: 2em;
+  padding-left: 1em;
+}
+
+#officers li:last-child {
+  padding-bottom: 1em;
+}
+
+#board {
+  grid-area: b;
+  margin-left: 1em;
+}
+
+#board p, #officers li {
+  padding-left: 3em;
+  font-size: 0.7em;
+  font-style: italic;
+}
+
+#board li {
+  color: blue;
+  padding-top: 2em;
+  padding-left: 1em;
+}
+
+#home-page {
+  display: grid;
+  grid-template: 'a a'
+                 'b c';
+  grid-gap: 3em;
+  padding: 1em;
+  padding-bottom: 0;
+}
+
+#news {
+  grid-area: a;
+}
+
+#events {
+  grid-area: b;
+}
+
+#services {
+  grid-area: c;
 }
