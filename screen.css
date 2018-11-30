@@ -1,0 +1,180 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/* stylelint-disable */
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section{display:block}html,.stylelint{line-height:1}body,.stylelint{line-height:inherit}ol,ul,.stylelint{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+/* stylelint-enable */
+
+/* Begin site styles below */
+
+body {
+  padding: 2em;
+}
+
+h1 {
+  color: #a5d6ef;
+  display: flex;
+  position: absolute;
+  font-family: "Norican";
+  font-size: 3em;
+  top: 0.01em;
+  padding-left: 0.6em;
+  line-height: 1.5em;
+  padding-right: 0.5em;
+  padding-top: 8em;
+  padding-bottom: 0.5em;
+  z-index: 1;
+}
+
+nav {
+  background-color: #ff0000;
+  color: white;
+  font-style: times;
+  font-size: 1.5em;
+}
+
+nav ul{
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+
+nav a {
+  color: black;
+}
+
+nav ul > li > a {
+  text-decoration: none;
+  width: 100%;
+}
+
+nav a:hover {
+  color:white;
+}
+
+
+#subnav ul {
+  display: run-in;
+
+}
+
+nav ul > li {
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.logo {
+  background-color: white;
+  max-width: 15%;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 35em;
+  z-index: 2;
+
+
+}
+
+.flag {
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 2em;
+  z-index: 2;
+
+}
+
+.slideshow {
+  max-width: 100%;
+  padding-left: 59%;
+  background-color: #003cff;
+}
+
+#page {
+	height: auto;
+	width: 1050px;
+	margin-left: auto;
+	margin-top: 70px;
+	margin-right: auto;
+	font-size: 1.4em;
+}
+
+mark {
+	background-color: white;
+}
+
+mark.mrk1 {
+	color: red;
+	font-size: 1.2em;
+}
+
+mark.mrk2 {
+	color: blue;
+}
+
+div {	
+	margin: auto;
+	width: 50%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+div.question {
+	color: red;
+}
+
+div.input {
+	position: absolute;
+	margin-top: -30px;
+	margin-left: 350px;
+	color: blue;
+}
+
+div#donation {
+	margin-top: 75px;
+}
+
+div.donationQ {
+	margin-left: 50px;
+	color: blue;
+}
+
+div.donationI {
+	position: absolute;
+	margin-top: -30px;
+	margin-left: 300px;
+}
+
+div#sponsor {
+	margin-top: 75px;
+}
+
+div#thanks {
+	margin-top: 75px;
+	color: blue;
+	text-align: center;
+	font-size: 1.3em;
+}
+
+div#check {
+	margin-top: 50px;
+	border: 5px solid red;
+	text-align: center;
+	font-size: 1.1em;
+}
+
+div.button {
+	margin-top: 50px;	
+	margin-left: 480px;
+}
+
+input#no {
+	margin-left: 50px;
+}
+
+button {
+	color: white;
+	background-color: blue;
+}
