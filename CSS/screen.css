@@ -8,6 +8,8 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 /* Begin site styles below */
 
+/*header for every page*/
+
 body {
   padding: 2em;
 }
@@ -104,6 +106,8 @@ section {
   padding-left: 59%;
   background-color: #003cff;
 }
+
+/*Contact-page Styles*/
 
 .map {
   max-width: 100%;
@@ -231,6 +235,8 @@ form {
   padding-bottom: 2em;
 }
 
+/*Board-page Styles*/
+
 #board-page {
   display: grid;
   grid-template: 'a b';
@@ -265,11 +271,20 @@ form {
   margin-left: 1em;
 }
 
-#board p, #officers li {
+#officers li {
   padding-left: 3em;
   font-size: 0.7em;
   font-style: italic;
+  color: black;
 }
+
+#board p {
+  padding-left: 1.5em;
+  font-size: 0.7em;
+  font-style: italic;
+  color: black;
+}
+
 
 #board li {
   color: blue;
@@ -277,23 +292,68 @@ form {
   padding-left: 1em;
 }
 
+/*Home-page Styles*/
+
 #home-page {
   display: grid;
-  grid-template: 'a a'
-                 'b c';
+  grid-template: 'c c'
+                 'b a';
   grid-gap: 3em;
-  padding: 1em;
+  padding: 3em;
   padding-bottom: 0;
 }
 
 #news {
-  grid-area: a;
-}
-
-#events {
-  grid-area: b;
+  grid-area: c;
+  background-color: #a5d6ef;
+  padding-bottom: 2em;
+  padding: 1em;
+  opacity: 0.8;
+  border-radius: 0.2em;
 }
 
 #services {
-  grid-area: c;
+  grid-area: b;
+  border-right: black solid 0.01em;
+  padding-right: 2em;
+  padding-top: 0;
+}
+
+#events {
+  grid-area: a;
+  padding-top: 0;
+}
+
+#home-page h2 {
+  color: red;
+  font-size: 1.5em;
+}
+
+#home-page img {
+  padding-top: 2em;
+  max-width: 70%;
+}
+
+#services li {
+  color: blue;
+  padding-top: 2em;
+  padding-left: 1em;
+}
+
+#services p {
+  color: black;
+  font-size: 0.7em;
+  padding-left: 2em;
+}
+
+#news h3 {
+  color: blue;
+  padding-top: 2em;
+  padding-left: 1em;
+}
+
+#news p {
+  color: black;
+  padding-left: 2em;
+  font-size: 0.7em;
 }
