@@ -123,9 +123,6 @@ section {
   flex-direction: column;
   position: absolute;
   top: 35em;
-  z-index: 2;
-
-
 }
 
 .flag {
@@ -142,6 +139,12 @@ section {
   max-width: 100%;
   padding-left: 59%;
   background-color: #003cff;
+}
+
+.fixed {
+  position: fixed;
+  top: 0;
+  z-index: 1;
 }
 
 /*Contact-page Styles*/
