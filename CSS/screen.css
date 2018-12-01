@@ -35,41 +35,78 @@ main {
   display: grid;
 }
 
-nav {
-  background-color: #ff0000;
+.navbar {
+  overflow: hidden;
+  background-color: red;
+  font-family: Times;
+  height: 50px;
+}
+
+
+.navbar a {
+  float: left;
+  font-size: 16px;
   color: white;
-  font-style: times;
-  font-size: 1.5em;
-}
-
-nav ul{
-  display: flex;
-  flex-direction: row;
-  list-style-type: none;
-}
-
-nav a {
-  color: black;
-}
-
-nav ul > li > a {
+  padding: 15px 15px;  
   text-decoration: none;
-  width: 100%;
+  font-size: 1.5em;
+  margin-left: 150px;
 }
 
-nav a:hover {
-  color:white;
+.dropdown {
+  float: left;
+  overflow: hidden;
+  width: 250px;
+  margin-left: 150px;
+}
+
+.dropbtn {
+	margin-top: -15px;
+	margin-left: -150px;
+	font-size: 1.00em;
 }
 
 
-#subnav ul {
-  display: run-in;
-
+.dropdown .dropbtn {
+  border: none;
+  outline: none;
+  color: white;
+  padding: 15px 15px;
+  background-color: inherit;
+  font-family: inherit; 
 }
 
-nav ul > li {
-  padding-left: 2em;
-  padding-right: 2em;
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: blue;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  width: 230px;
+  background-color: red;  
+  box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  margin-top: -25px;
+}
+
+.dropdown-content a {
+  float: none;
+  border: 1px solid white;
+  color: white;
+  padding: 5px 5px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  margin-left: 0;
+}
+
+.dropdown-content a:hover {
+  background-color: blue;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
 }
 
 section {

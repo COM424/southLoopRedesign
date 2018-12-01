@@ -21,20 +21,21 @@
     <img src="../images/chicagoflag.png" alt="Picture of Chicago Flag" class="flag" />
     <img src="../images/logo.png" alt="South Loop Logo" class="logo" />
     <h1>The District Board Members</h1>
-    <nav>
-      <ul>
-        <li><a href="../index.html">Home</a></li>
-        <li><a href="../board/index.html">Board</a></li>
-        <li><a href="../currentMembers/index.html">Current Members</a>
-          <ul id="subnav">
-            <li><a href="../faq/index.html">FAQ</a></li>
-            <li><a href="../graphs/index.html">Financial Graphs</a></li>
-          </ul>
-        </li>
-        <li><a href="../register/index.html">Register</a></li>
-        <li><a href="../contact/index.html">Contact</a></li>
-      </ul>
-    </nav>
+    <div class="navbar">
+		<a href="../index.html">Home</a>
+		<a href="../board/index.html">Board</a>
+		<div class="dropdown">
+			<button class="dropbtn"><a href="../currentMembers/index.html">Current Members</a>
+				<i class="fa fa-caret-down"></i>
+			</button>
+			<div class="dropdown-content">
+				<a href="../faq/index.html">FAQ</a>
+				<a href="../graphs/index.html">Financial Graphs</a>
+			</div>
+		</div>
+		<a href="../register/index.html">Register</a>
+		<a href="../contact/index.html">Contact</a>
+	</div>
   </header>
 
   <main id="board-page">
