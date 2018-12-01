@@ -140,7 +140,7 @@ section {
 
 .slideshow {
   max-width: 100%;
-  padding-left: 55%;
+  padding-left: 59%;
   background-color: #003cff;
 }
 
@@ -381,6 +381,7 @@ form {
   color: black;
   font-size: 0.7em;
   padding-left: 2em;
+  font-style: italic;
 }
 
 #news h3 {
@@ -393,4 +394,5 @@ form {
   color: black;
   padding-left: 2em;
   font-size: 0.7em;
+  font-style: italic;
 }
