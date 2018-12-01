@@ -396,3 +396,59 @@ form {
   font-size: 0.7em;
   font-style: italic;
 }
+
+/*Graph Page Styles*/
+
+#graph-page {
+  display: grid;
+  grid-template: 'a b'
+                 'a b'
+                 'c d'
+                 'c d';
+  grid-gap: 3em;
+  padding: 3em;
+  padding-bottom: 0;
+}
+
+#graph-page img {
+  max-width: 90%;
+  padding-top: 2em;
+}
+
+
+#expenses .Expenses {
+  padding-top: 1.5em;
+  padding-bottom: 2.5em;
+  max-width: 65%;
+}
+
+#revenue .Revenue {
+  padding-top: 1.5em;
+  padding-bottom: 2em;
+  max-width: 62%;
+}
+
+#chart-expenses {
+  grid-area: a;
+  border-right: black solid 0.01em;
+  padding-right: 2em;
+}
+
+#expenses {
+  grid-area: b;
+}
+
+#chart-revenue {
+  grid-area: c;
+  border-right: black solid 0.01em;
+  padding-right: 2em;
+}
+
+#revenue {
+  grid-area: d;
+}
+
+#graph-page h2 {
+  color: red;
+  font-size: 1.5em;
+}
