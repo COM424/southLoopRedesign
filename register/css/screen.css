@@ -42,7 +42,7 @@ h1 {
   float: left;
   font-size: 16px;
   color: white;
-  padding: 15px 15px;  
+  padding: 15px 15px;
   text-decoration: none;
   font-size: 1.5em;
   margin-left: 150px;
@@ -79,7 +79,7 @@ h1 {
   display: none;
   position: absolute;
   width: 230px;
-  background-color: red;  
+  background-color: red;
   box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.2);
   z-index: 1;
   margin-top: -25px;
@@ -111,7 +111,6 @@ h1 {
   flex-direction: column;
   position: absolute;
   top: 35em;
-  z-index: 2;
 }
 
 .flag {
@@ -128,6 +127,12 @@ h1 {
   max-width: 100%;
   padding-left: 59%;
   background-color: #003cff;
+}
+
+.fixed {
+  position: fixed;
+  top: 0;
+  z-index: 1;
 }
 
 #page {
@@ -152,7 +157,7 @@ mark.mrk2 {
 	color: blue;
 }
 
-div {	
+div {
 	margin: auto;
 	width: 50%;
 	margin-top: 20px;
@@ -204,7 +209,7 @@ div#check {
 }
 
 div.button {
-	margin-top: 50px;	
+	margin-top: 50px;
 	margin-left: 480px;
 }
 
