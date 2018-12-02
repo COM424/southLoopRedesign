@@ -45,19 +45,19 @@ h1 {
   padding: 15px 15px;
   text-decoration: none;
   font-size: 1.5em;
-  margin-left: 150px;
+  margin-left: 100px;
 }
 
 .dropdown {
   float: left;
   overflow: hidden;
   width: 250px;
-  margin-left: 150px;
+  margin-left: 100px;
   margin-top: -20px;
 }
 
 .dropbtn {
-	margin-left: -150px;
+	margin-left: -100px;
 }
 
 
@@ -125,13 +125,14 @@ h1 {
 
 .slideshow {
   max-width: 100%;
-  padding-left: 59%;
+  padding-left: 56.65%;
   background-color: #003cff;
 }
 
 .fixed {
   position: fixed;
   top: 0;
+  width: 96%;
   z-index: 1;
 }
 
