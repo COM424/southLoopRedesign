@@ -9,7 +9,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* Begin site styles below */
 
 body {
-  padding: 2em;
+  padding: 0em;
 }
 
 h1 {
@@ -42,19 +42,19 @@ h1 {
   padding: 15px 15px;
   text-decoration: none;
   font-size: 1.5em;
-  margin-left: 100px;
+  margin-left: 120px;
 }
 
 .dropdown {
   float: left;
   overflow: hidden;
   width: 250px;
-  margin-left: 100px;
+  margin-left: 120px;
 }
 
 .dropbtn {
 	margin-top: -15px;
-	margin-left: -100px;
+	margin-left: -120px;
 }
 
 
@@ -120,14 +120,20 @@ h1 {
 
 .slideshow {
   max-width: 100%;
-  padding-left: 56.65%;
+  padding-left: 60%;
   background-color: #003cff;
 }
 
 .fixed {
   position: fixed;
   top: 0;
-  width: 96%;
+  width: 100%;
+  z-index: 1;
+}
+
+.fixedDrop {
+  position: fixed;
+  top: 70px;
   z-index: 1;
 }
 
