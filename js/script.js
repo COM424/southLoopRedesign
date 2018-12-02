@@ -8,8 +8,10 @@ jQuery(document).ready(function() {
 
     if (scrollPos >= navOffset) {
       jQuery(".navbar").addClass("fixed");
+	  jQuery(".dropdown-content").addClass("fixedDrop");
     } else {
       jQuery(".navbar").removeClass("fixed");
+	  jQuery(".dropdown-content").removeClass("fixedDrop");
     }
   });
 
