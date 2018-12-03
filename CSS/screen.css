@@ -19,14 +19,12 @@ h1 {
   display: flex;
   position: absolute;
   font-family: "Norican";
-  font-size: 3em;
-  top: 0.01em;
-  padding-left: 0.6em;
+  font-size: 4em;
+  top: 5em;
   line-height: 1.5em;
-  padding-right: 0.5em;
-  padding-top: 8em;
-  padding-bottom: 0.5em;
+  padding-bottom: 0.2em;
   z-index: 1;
+  margin-left: 1em;
 }
 
 main {
@@ -130,7 +128,7 @@ section {
   display: flex;
   flex-direction: column;
   position: absolute;
-  top: 2em;
+  top: 0;
   z-index: 2;
 
 }
@@ -158,7 +156,6 @@ section {
 
 .map {
   max-width: 100%;
-  display: block;
 }
 
 .input a {
@@ -167,7 +164,7 @@ section {
   color: #003cff;
   text-decoration: none;
   padding-bottom: 3em;
-  margin-left: 55em;
+  margin-left: 58em;
 }
 
 form {
@@ -181,7 +178,7 @@ form {
 
 #linkedIn {
   max-width: 18%;
-  padding-left: 0.5em;
+  padding-left: 0.3em;
 }
 
 #contact a {
@@ -207,6 +204,7 @@ form {
   color: #ff0000;
   padding-bottom: 1em;
   font-size: 1.5em;
+  margin-top: 1.5em;
 }
 
 #contact-page h3 {
@@ -229,11 +227,16 @@ form {
 #contact p {
   font-size: 0.7em;
   padding-left: 0.5em;
+  font-style: italic;
+}
+
+#map h2 {
+  margin-left: 3em;
 }
 
 #map {
   grid-area: b;
-  margin-left: 2em;
+  margin-left: 3em;
 }
 
 #map li {
@@ -264,7 +267,7 @@ form {
 
 #north-directions {
   grid-area: e;
-  padding-top: 3em;
+  padding-top: 5.2em;
   padding-right: 3em;
 }
 
@@ -297,10 +300,14 @@ form {
   font-size: 1.5em;
 }
 
+#board-page #officers {
+  margin-left: 4.5em;
+}
+
 #officers {
   grid-area: a;
   border-right: black solid 0.01em;
-  padding-right: 3em;
+  padding-right: 2em;
 }
 
 #officers h3 {
@@ -336,7 +343,7 @@ form {
 #board li {
   color: blue;
   padding-top: 2em;
-  padding-left: 1em;
+  padding-left: 0.5em;
 }
 
 /*Home-page Styles*/
@@ -353,9 +360,11 @@ form {
 #news {
   grid-area: c;
   background-color: #a5d6ef;
-  padding-bottom: 2em;
   padding: 1em;
   opacity: 0.8;
+  margin-right: 2em;
+  margin-left: 5em;
+  margin-top: 6em;
   border-radius: 0.2em;
 }
 
@@ -430,6 +439,7 @@ form {
   padding-top: 1.5em;
   padding-bottom: 2.5em;
   max-width: 65%;
+  padding-top: 1.5em;
 }
 
 #revenue .Revenue {
@@ -442,6 +452,8 @@ form {
   grid-area: a;
   border-right: black solid 0.01em;
   padding-right: 2em;
+  padding-top: 0;
+  padding-left: 5em;
 }
 
 #expenses {
@@ -452,6 +464,7 @@ form {
   grid-area: c;
   border-right: black solid 0.01em;
   padding-right: 2em;
+  padding-left: 5em;
 }
 
 #revenue {
