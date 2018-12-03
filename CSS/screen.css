@@ -129,13 +129,14 @@ section {
   flex-direction: column;
   position: absolute;
   top: 0;
-  z-index: 2;
+  z-index: 0;
 }
 
 .slideshow {
   max-width: 100%;
-  padding-left: 60%;
+  padding-left: 56.5%;
   background-color: #003cff;
+  z-index: 2;
 }
 
 .fixed {
