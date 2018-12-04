@@ -118,8 +118,9 @@ h1 {
 
 .slideshow {
   max-width: 100%;
-  padding-left: 60%;
+  padding-left: 56.3%;
   background-color: #003cff;
+  z-index: 2;
 }
 
 .fixed {
@@ -133,6 +134,10 @@ h1 {
   position: fixed;
   top: 70px;
   z-index: 1;
+}
+
+.sponsors {
+  max-width: 100%;
 }
 
 #page {

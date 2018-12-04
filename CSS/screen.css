@@ -152,6 +152,11 @@ section {
   z-index: 1;
 }
 
+.sponsors {
+  max-width: 100%;
+}
+
+
 /*Contact-page Styles*/
 
 .map {
@@ -285,6 +290,10 @@ form {
   padding-bottom: 2em;
 }
 
+#south-directions li:last-child {
+  padding-bottom: 2em;
+}
+
 /*Board-page Styles*/
 
 #board-page {
@@ -293,6 +302,8 @@ form {
   grid-gap: 3em;
   padding: 3em;
   padding-bottom: 0;
+  padding-top: 0;
+  margin-top: 0;
 }
 
 #board-page h2 {
@@ -318,6 +329,7 @@ form {
 
 #officers li:last-child {
   padding-bottom: 1em;
+  margin-bottom: 5em;
 }
 
 #board {
@@ -337,6 +349,7 @@ form {
   font-size: 0.7em;
   font-style: italic;
   color: black;
+  margin-bottom: 3.2em;
 }
 
 
@@ -378,6 +391,10 @@ form {
 #events {
   grid-area: a;
   padding-top: 0;
+}
+
+#events img:last-child {
+  padding-bottom: 2em;
 }
 
 #home-page h2 {
@@ -427,6 +444,7 @@ form {
   grid-gap: 3em;
   padding: 3em;
   padding-bottom: 0;
+  padding-top: 0;
 }
 
 #graph-page img {
